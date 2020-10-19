@@ -1,0 +1,270 @@
+body{
+    background-color: #d7dbe0;
+}
+.header {
+    background: #282a2b; 
+    height: 60px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    box-shadow: 0 0 18px 0 #888888;
+}
+
+.search-content  form {
+    width: 90%;
+    margin: 18px auto;
+    background: #ffffff;
+    border-radius: 6px;
+    position: relative;
+}
+
+.search-content input {
+    width: 95%;
+    height: 50%;
+    border: none;
+    outline: none;
+    padding: 0.5px 8px;
+    background: none;
+}
+
+.search-content a{
+    position: absolute;
+    right: 8px;
+    top: -2px;
+    color: black;  
+}
+/* imfomation */
+.imfomation a {
+    color: white;
+    text-decoration: none;
+}
+.info-item li{
+    list-style: none;
+    float: left;
+    padding: 18px 10px;
+}
+.info-item a{
+    padding: 15px 28px;
+}
+.info-item a:hover{
+    background-color: #E2C76F;
+    color: #000000;
+    border-radius: 5px;
+}
+/* navigation */
+.nav{
+    background-color: #E2C76F;
+    height: 40px;
+    padding-top: 0;
+    
+}
+.menu-content{
+    margin-left: -60px;
+}
+.menu-content li {
+    list-style: none; 
+    float: left;
+    padding: 8px 8px;
+}
+.menu-content a{
+    color: #000000;
+    text-decoration: none;
+    padding: 8px 15px;
+    font-weight: 400;
+    font-size: 17px;
+ 
+}
+.menu-content a:hover{
+    background-color: #282a2b;
+    color: #E2C76F;
+    border-radius: 6px;
+}
+.menu-content p{
+    display: inline;
+    clear: both;
+    margin: 0 8px;
+}
+/* new */
+.news li{
+    list-style: none;
+    padding: 8px 10px;
+}
+.banner{
+    margin-top: 20px;
+}
+.banner img{
+    height: 320px;
+}
+/* tin cong nghe */
+.tintuc{
+    padding-left: 10px;
+    padding-right: 0px;
+}
+.tab{
+    background-color: #f1f1f1;
+    border: 1px solid #cccccc;
+    border-top: rgb(253, 185, 59) 1px solid;
+    height: 50px;
+}
+.tablink{
+    border: none;
+    float: left;
+    outline: none;
+    font-family: 'Times New Roman';
+    font-size: 17px;
+    transition: 0.2s;
+    width: 33.3%;
+    padding: 11px 0;
+}
+.tablink:hover{
+    background-color: #dddddd;
+    outline: none;
+}
+
+.tablink.active{
+    background-color: #ddd;
+    outline: none;
+    border-bottom: 3px solid rgb(255, 166, 0);
+}
+ 
+.tabcontent{
+    clear: both;
+    display: none;
+    border-top: none;
+}
+.tabcontent .row{
+    border-bottom: 2px solid #686868;
+}
+/* tin cong nghe */
+#tcn{
+    display: block;
+}
+#tcn .row{
+    margin: 10px 0;
+}
+#tcn .col-4{
+    padding-right: 0;
+    height: 80px;
+}
+#tcn img{
+    width: 100%;
+    height: 80%;
+}
+#tcn .col-8{
+    font-size: 14px;
+    padding-right: 0;
+    height: 80px;
+}
+#tcn a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: 600;
+}
+#tcn p{
+    color: #7a7a7a;
+    text-align: right;
+    margin-top: 16px;
+    margin-bottom: 0;
+}
+/* tin hoat dong */
+#thd .row{
+    margin: 10px 0;
+}
+#thd .col-4{
+    padding-right: 0;
+    height: 80px;
+}
+#thd img{
+    width: 100%;
+    height: 80%;
+}
+#thd .col-8{
+    font-size: 14px;
+    padding-right: 0;
+    height: 80px;
+    
+}
+#thd a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: 600;
+    
+}
+#thd p{
+    color: #7a7a7a;
+    text-align: right;
+    
+}
+/* tin khuyen mai */
+#tkm .row{
+    margin: 10px 0;
+}
+#tkm .col-4{
+    padding-right: 0;
+    height: 80px;
+}
+#tkm img{
+    width: 100%;
+    height: 80%;
+}
+#tkm .col-8{
+    font-size: 14px;
+    padding-right: 0;
+    height: 80px;
+    
+}
+#tkm a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: 600;
+    
+}
+#tkm p{
+    color: #7a7a7a;
+    text-align: right;
+    margin-bottom: 0;
+    margin-top: 16px;
+}
+/* content */
+
+.tieu-de {
+    background: #9aa5b1;
+    text-transform: uppercase;
+    border-top: 1px solid #dfaf12;
+    height: 35px;
+    margin: 5px -15px;
+}
+
+.tieu-de p {
+    background-image: linear-gradient(to right ,#dfaf12,white, #dfaf12 );
+    padding: 5px 10px;
+    font-weight: 700;
+}
+
+.img-hover:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+/* .card-body img{
+    height: 261.38px;
+} */
+
+/* footer */
+.text {
+    color: #ecf0f1;
+    text-align: justify;
+}
+
+.list-sp {
+    list-style: none;
+    padding: 0;
+}
+
+.list-sp a {
+    color: #ecf0f1;
+    text-decoration: none;
+}
+/* footer-end */
+.footer-end span{
+    color: #ecf0f1;
+}
